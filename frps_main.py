@@ -550,8 +550,9 @@ openssl x509 -req -days 3650 -in /tmp/frp_cert/client.csr -CA %s -CAkey %s -CAcr
             return frp_versions
         else:
             try:
-                resp = requests.get('https://cdn.iw3c.com.cn/bt-plugin/frp/data.json?t=' + str(int(time.time())))
-                data = json.loads(resp.text)
+                # resp = requests.get('https://cdn.iw3c.com.cn/bt-plugin/frp/data.json?t=' + str(int(time.time())))
+                # data = json.loads(resp.text)
+                data = json.loads(public.readFile(plugin_path + '/frpversion.json'))
                 db_obj.table('global_config').where('name = ?', 'frp_version').update({'value': json.dumps(data)})
                 db_obj.table('global_config').where('name = ?', 'frp_version_cache').update(
                     {'value': str(int(time.time()) + 3600 * 24)})

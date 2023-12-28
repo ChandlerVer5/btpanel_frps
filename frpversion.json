@@ -1,0 +1,89 @@
+{
+    "last_version": "0.53.2",
+    "version": {
+        "0.53.2": {
+            "windows": {
+                "name": "frp_0.53.2_windows_amd64.zip",
+                "url": "https://github.com/fatedier/frp/releases/download/v0.53.2/frp_0.53.2_windows_amd64.zip"
+            },
+         "linux": {
+                "name": "frp_0.53.2_linux_amd64.tar.gz",
+                "url": "https://github.com/fatedier/frp/releases/download/v0.53.2/frp_0.53.2_linux_amd64.tar.gz"
+           },
+           "source_code": {
+                "name": "frp-0.53.2.tar.gz",
+                "url": "https://github.com/fatedier/frp/archive/refs/tags/v0.53.2.tar.gz"
+           }
+        },
+        "0.53.0": {
+            "windows": {
+                "name": "frp_0.53.0_windows_amd64.zip",
+                "url": "https://github.com/fatedier/frp/releases/download/v0.53.0/frp_0.53.0_windows_amd64.zip"
+            },
+            "linux": {
+                "name": "frp_0.53.0_linux_amd64.tar.gz",
+                 "url": "https://github.com/fatedier/frp/releases/download/v0.53.0/frp_0.53.0_linux_amd64.tar.gz"
+           },
+            "source_code": {
+                "name": "frp-0.53.0.tar.gz",
+                "url": "https://github.com/fatedier/frp/archive/refs/tags/v0.53.2.tar.gz"
+           }
+        },
+        "0.52.0": {
+            "windows": {
+                "name": "frp_0.52.0_windows_amd64.zip",
+                "url": "https://github.com/fatedier/frp/releases/download/v0.52.0/frp_0.52.0_windows_amd64.zip"
+            },
+            "linux": {
+                "name": "frp_0.52.0_linux_amd64.tar.gz",
+                "url": "https://github.com/fatedier/frp/releases/download/v0.52.0/frp_0.52.0_linux_amd64.tar.gz"
+           },
+            "source_code": {
+                "name": "frp-0.52.0.tar.gz",
+                "url": "https://github.com/fatedier/frp/archive/refs/tags/v0.52.0.tar.gz"
+            }
+        },
+        "0.48.0": {
+            "windows": {
+                "name": "frp_0.48.0_windows_amd64.zip",
+                "url": "https://cdn.iw3c.com.cn/bt-plugin/frp/0.48.0/frp_0.48.0_windows_amd64.zip"
+            },
+            "linux": {
+                "name": "frp_0.48.0_linux_amd64.tar.gz",
+                "url": "https://cdn.iw3c.com.cn/bt-plugin/frp/0.48.0/frp_0.48.0_linux_amd64.tar.gz"
+            },
+            "source_code": {
+                "name": "frp-0.48.0.tar.gz",
+                "url": "https://cdn.iw3c.com.cn/bt-plugin/frp/0.48.0/frp-0.48.0.tar.gz"
+            }
+        },
+        "0.47.0": {
+            "windows": {
+                "name": "frp_0.47.0_windows_amd64.zip",
+                "url": "https://cdn.iw3c.com.cn/bt-plugin/frp/0.47.0/frp_0.47.0_windows_amd64.zip"
+            },
+            "linux": {
+                "name": "frp_0.47.0_linux_amd64.tar.gz",
+                "url": "https://cdn.iw3c.com.cn/bt-plugin/frp/0.47.0/frp_0.47.0_linux_amd64.tar.gz"
+            },
+            "source_code": {
+                "name": "frp-0.47.0.tar.gz",
+                "url": "https://cdn.iw3c.com.cn/bt-plugin/frp/0.47.0/frp-0.47.0.tar.gz"
+            }
+        },
+        "0.46.1": {
+            "windows": {
+                "name": "frp_0.46.1_windows_amd64.zip",
+                "url": "https://cdn.iw3c.com.cn/bt-plugin/frp/0.46.1/frp_0.46.1_windows_amd64.zip"
+            },
+            "linux": {
+                "name": "frp_0.46.1_linux_amd64.tar.gz",
+                "url": "https://cdn.iw3c.com.cn/bt-plugin/frp/0.46.1/frp_0.46.1_linux_amd64.tar.gz"
+            },
+            "source_code": {
+                "name": "frp-0.46.1.tar.gz",
+                "url": "https://cdn.iw3c.com.cn/bt-plugin/frp/0.46.1/frp-0.46.1.tar.gz"
+            }
+        }
+    }
+}

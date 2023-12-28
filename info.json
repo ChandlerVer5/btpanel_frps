@@ -1,9 +1,9 @@
 {
-  "title": "frp服务端",
+  "title": "frp 服务端",
   "name": "frps",
   "ps": "基于 https://github.com/fatedier/frp 开发的GUI 管理工具, 可提供可视化的服务端管理配置功能",
-  "versions": "3.2.beta",
+  "versions": "5.0.0",
   "checks": "/www/server/panel/plugin/frps",
-  "author": "IW3C",
-  "home": "https://www.atonal.cn"
+  "author": "ChandlerVer5",
+  "home": "https://www.rustbing.com"
 }
