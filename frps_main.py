@@ -325,7 +325,7 @@ openssl x509 -req -days 3650 -in /tmp/frp_cert/client.csr -CA %s -CAkey %s -CAcr
 
     # 检查指定的端口是否被占用
     # 0 没有占用
-    # 1 被frps 的其他应用占用
+    # 1 被 frps 的其他应用占用
     # 2 被其他应用占用
     def _check_ports(self, name, port, argv):
         config = self._get_config(name)
@@ -368,7 +368,7 @@ openssl x509 -req -days 3650 -in /tmp/frp_cert/client.csr -CA %s -CAkey %s -CAcr
             version = json.loads(public.readFile(plugin_path + 'bin/version.json'))['version']
             print('frps 内核已经安装,版本:' + version)
 
-    # 初始话frps 插件
+    # 初始化 frps 插件
     def _init_frps(self):
         # 新建用于 存放数据,配置的目录
         if not os.path.exists(plugin_path + 'data'):
@@ -382,9 +382,9 @@ openssl x509 -req -days 3650 -in /tmp/frp_cert/client.csr -CA %s -CAkey %s -CAcr
             fofile = db_obj.fofile(plugin_path + 'db.sql')
 
 
-            # 设置frps 的全局配置
+            # 设置 frps 的全局配置
             db_obj.table('global_config').insert(
-                {'name': 'core_version', 'value': '', '`group`': 'all', 'extend': 'frp的内核版本'})
+                {'name': 'core_version', 'value': '', '`group`': 'frps', 'extend': 'frp 的内核版本'})
             db_obj.table('global_config').insert(
                 {'name': 'run_status', 'value': 'stop', '`group`': 'frps', 'extend': 'frps 设置的运行状态'})
             db_obj.table('global_config').insert(
@@ -412,7 +412,7 @@ openssl x509 -req -days 3650 -in /tmp/frp_cert/client.csr -CA %s -CAkey %s -CAcr
 
         print('frps 初始化成功')
 
-    # 启动frps 插件
+    # 启动 frps 插件
     def _start_frps(self):
         if self._status_frps()['running']:
             return True
@@ -433,7 +433,7 @@ openssl x509 -req -days 3650 -in /tmp/frp_cert/client.csr -CA %s -CAkey %s -CAcr
         except:
             return self._start_force_frps()
 
-    # 强制启动frps 插件
+    # 强制启动 frps 插件
     # 常规启动失败时使用,将强制杀死服务器上所有 frps 进程
     def _start_force_frps(self):
         if self._status_frps()['running']:

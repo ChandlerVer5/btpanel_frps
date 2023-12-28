@@ -1,0 +1,29 @@
+{
+    "frps": {
+       "core_version": {
+        "value": "",
+        "extend": "frp 的内核版本"
+       },
+       "run_status":{
+        "value": "stop",
+        "extend": "frp 的内核版本"
+       },
+       "run_pid":{
+        "value": "",
+        "extend": "frp 运行的进程号"
+       }
+    },
+    "version" : {
+        "frp_version" : {
+            "value": "",
+            "extend": "frp 云端数据缓存"  
+        },
+        "frp_version_cache" : {
+            "value": "0",
+            "extend": "frp 云端数据缓存过期时间"  
+        }
+    },
+    "frps_group":{
+
+    }
+}

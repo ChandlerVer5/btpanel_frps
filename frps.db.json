@@ -1,0 +1,15 @@
+{
+    "global_config":{
+        "base":{
+            基础配置
+        }
+    },
+    "frpc_config":{
+        "client":{
+            "server_addr":{
+
+            }
+        } ,
+
+    },
+}
